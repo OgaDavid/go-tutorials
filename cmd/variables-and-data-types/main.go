@@ -7,4 +7,6 @@ import (
 func main() {
 	name := "Dave"
 	fmt.Printf("hello %s\n", name)
+
+	printArray()
 }
