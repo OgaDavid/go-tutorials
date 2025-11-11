@@ -7,6 +7,10 @@ type Number int
 func arrays() {
 	numbers := []Number{1, 2, 3}
 
+	scores := make([]int, 10, 20)
+
+	fmt.Println(scores)
+
 	fmt.Println(len(numbers))
 
 	fmt.Println(numbers)

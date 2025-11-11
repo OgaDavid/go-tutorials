@@ -14,7 +14,7 @@ func main() {
 	// power := 9000
 	// fmt.Printf("It's over %d\n", power)
 
-	david := &Person{}
+	david := &Person{} // is a pointer with type *Person
 	number := new(int)
 
 	*number = 24
@@ -28,6 +28,8 @@ func main() {
 	david.Father = &john
 	fmt.Printf("%p\n", david)
 
-	structs()
+	// structs()
+
+	slices()
 
 }
